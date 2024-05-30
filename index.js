@@ -289,7 +289,7 @@ async function connectionLogic() {
                     sock.sendMessage(message.key.remoteJid, reactionMessage);
                     setTimeout(() => {
                         const responseMessage = {
-                            text: 'Baik, admin akan segera menelpon. Terima kasih🙏🏻🙂'
+                            text: 'Baik, admin akan segera merespon data yang diberikan. Terima kasih🙏🏻🙂'
                         };
                         sock.sendMessage(message.key.remoteJid, responseMessage,);
                     }, 1000)
